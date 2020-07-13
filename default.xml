@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Settings -->
+  <default sync-j="4" revision="dunfell"/>
+
+  <!-- Remotes -->
+  <remote name="yocto"  fetch="git://git.yoctoproject.org" />
+  <remote name="github" fetch="git://github.com" />
+  <remote name="bitbucket" fetch="git://bitbucket.org" />
+
+  <!-- Meta layers -->
+  <project  remote="yocto"
+            upstream="dunfell"
+            name="poky"
+            revision="39d7cf1abb2c88baaedb3a627eba8827747b2eb9"
+            path="sources/poky" />
+
+  <project  remote="github"
+            upstream="dunfell"
+            name="openembedded/meta-openembedded"
+            revision="8a72d29e0876830ffd96b85d7d0308302eb07a5d"
+            path="sources/meta-openembedded" />
+
+  <project  remote="github"
+            upstream="dunfell"
+            name="meta-qt5/meta-qt5"
+            revision="fdd19517e17240b0b61765bd02fc483a1bde986f"
+            path="sources/meta-qt5" />
+
+  <project  remote="github"
+            upstream="dunfell"
+            name="STMicroelectronics/meta-st-openstlinux"
+            revision="5465ed3781355776cb46d2cc45884b1ccc1011cd"
+            path="sources/meta-st-openstlinux" />
+
+  <project  remote="github"
+            upstream="dunfell"
+            name="STMicroelectronics/meta-st-scripts"
+            revision="b600010fa49e2bd4d3f10b732405200de974d3e2"
+            path="sources/meta-st-scripts" />
+
+  <project  remote="github"
+            upstream="dunfell"
+            name="STMicroelectronics/meta-st-stm32mp"
+            revision="7a1ab80ccb655e9cd28c9ea8a4a83fca48c48b11"
+            path="sources/meta-st-stm32mp" />
+
+  <project  remote="github"
+            upstream="dunfell"
+            name="STMicroelectronics/meta-st-stm32mp-addons"
+            revision="2b992cde26a4df9da34d8baee8491b3d9bc8f109"
+            path="sources/meta-st-stm32mp-addons" />
+
+  <project  remote="github"
+            upstream="dunfell"
+            name="STMicroelectronics/meta-st-stm32mpu-ai"
+            revision="f7da03d6bb5e5285d75d7871d55faacf9aed485a"
+            path="sources/meta-st-stm32mpu-ai" />
+
+  <project  remote="bitbucket"
+            upstream="dunfell"
+            name="dimtass/meta-stm32mp1-bsp-base"
+            revision="refs/heads/master"
+            path="sources/meta-stm32mp1-bsp-base" />
+</manifest>
