@@ -58,7 +58,7 @@
             revision="f7da03d6bb5e5285d75d7871d55faacf9aed485a"
             path="sources/meta-st-stm32mpu-ai" />
 
-  <project  remote="bitbucket"
+  <project  remote="github"
             upstream="dunfell"
             name="dimtass/meta-stm32mp1-bsp-base"
             revision="refs/heads/master"
