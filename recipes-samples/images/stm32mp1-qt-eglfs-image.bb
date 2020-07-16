@@ -14,7 +14,7 @@ IMAGE_FEATURES += " \
             package-management \
             "
 
-IMAGE_INSTALL = " \
+IMAGE_INSTALL += " \
             stm32mp1-rpmsg-test-linux \
             stm32mp1-rpmsg-test-stm32 \
             "
