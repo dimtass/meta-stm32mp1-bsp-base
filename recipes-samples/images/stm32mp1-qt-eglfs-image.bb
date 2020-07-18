@@ -15,6 +15,7 @@ IMAGE_FEATURES += " \
             "
 
 IMAGE_INSTALL += " \
+            merge-files \
             stm32mp1-rpmsg-test-linux \
             stm32mp1-rpmsg-test-stm32 \
             stm32mp1-rpmsg-netlink-linux \
