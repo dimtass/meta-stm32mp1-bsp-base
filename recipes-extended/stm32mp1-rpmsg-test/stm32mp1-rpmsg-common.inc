@@ -6,7 +6,7 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda
 
 inherit cmake
 
-SRC_URI = "git://dimtass@bitbucket.org/dimtass/stm32mp1-rpmsg-test.git;protocol=ssh"
+SRC_URI = "git://dimtass@bitbucket.org/dimtass/stm32mp1-rpmsg-test.git;protocol=https"
 
 # Modify these as desired
 PV = "1.0+git${SRCPV}"
