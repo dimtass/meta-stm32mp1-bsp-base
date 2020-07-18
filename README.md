@@ -11,18 +11,10 @@ This layer also adds an extra machine which is based on the `stm32mp1-disco` and
 To build the image you need to use the `repo` tool and the `manifest.xml` in this repo.
 
 #### Clone all repos
-In order to fetch all the needed repos then create a new folder (e.g. stm32mp1) and then
-inside that folder create this path `.repo/manifests`.
+In order to build the image you need all the 
 
 ```sh
-mkdir -p stm32mp1-yocto/.repo/manifests
 cd stm32mp1-yocto
-```
-
-Now copy the `manifest.xml` file in `stm32mp1-yocto/.repo/manifests`. Next inside the
-`stm32mp1-yocto` directory run:
-
-```sh
 repo init -u https://bitbucket.org/dimtass/meta-stm32mp1-bsp-base/src/master/default.xml
 repo sync
 ```
@@ -61,7 +53,7 @@ the HDMI connector and run the `STM32CubeProgrammer` like this:
 
 ```sh
 cd build/tmp-glibc/deploy/images/stm32mp1-discotest/flashlayout_stm32mp1-qt-eglfs-image
-sudo '/opt/STM32CubeProgrammer/bin/STM32_Programmer_CLI' -c port=usb1 -w FlashLayout_sdcard_stm32mp157c-dk2-trusted.tsv
+sudo '/opt/STM32CubeProgrammer/bin/STM32_Programmer_CLI' -c port=usb1 -w flashlayout_stm32mp1-qt-eglfs-image/trusted/FlashLayout_sdcard_stm32mp157c-dk2-trusted.tsv
 ```
 
 The above command assumes that the `STM32CubeProgrammer` is installed in the `/opt` path. You can

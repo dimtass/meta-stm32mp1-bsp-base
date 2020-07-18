@@ -17,6 +17,9 @@ IMAGE_FEATURES += " \
 IMAGE_INSTALL += " \
             stm32mp1-rpmsg-test-linux \
             stm32mp1-rpmsg-test-stm32 \
+            stm32mp1-rpmsg-netlink-linux \
+            stm32mp1-rpmsg-netlink-stm32 \
+            rpmsg-netlink \
             "
 
 CORE_IMAGE_EXTRA_INSTALL += " \
