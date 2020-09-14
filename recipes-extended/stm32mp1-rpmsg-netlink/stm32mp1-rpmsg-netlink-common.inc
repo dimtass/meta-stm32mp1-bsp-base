@@ -1,4 +1,5 @@
-DESCRIPTION = "RPMSG benchmark tool that includes both the CM4 firmware and CA application"
+DESCRIPTION = "RPMSG benchmark tool that includes both the CM4 firmware and CA application. \
+		There is a post on how to use this repo here: https://www.stupid-projects.com/benchmarking-the-stm32mp1-ipc-between-the-mcu-and-cpu-part-2/"
 AUTHOR = "Dimitris Tassopoulos <dimtass@gmail.com>"
 
 LICENSE = "MIT"
@@ -10,7 +11,7 @@ SRC_URI = "git://github.com/dimtass/stm32mp1-rpmsg-netlink-example.git;protocol=
 
 # Modify these as desired
 PV = "1.0+git${SRCPV}"
-SRCREV = "e7f24cfedb39c3cc729567aaffd4fb08ddb9b5e2"
+SRCREV = "998f61db13fa434e97119c751c6958c1eee43727"
 
 S = "${WORKDIR}/git"
 B = "${WORKDIR}/build"
