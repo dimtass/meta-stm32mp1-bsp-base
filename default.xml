@@ -19,7 +19,7 @@
   <project  remote="github"
             upstream="dunfell"
             name="openembedded/meta-openembedded"
-            revision="8a72d29e0876830ffd96b85d7d0308302eb07a5d"
+            revision="574c1aa730c2e664eb0a6aa31e6edb286d8eb0bc"
             path="sources/meta-openembedded" />
 
   <project  remote="github"
