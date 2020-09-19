@@ -1,4 +1,4 @@
-DESCRIPTION = "RPMSG benchmark tool that includes both the CM4 firmware and CA application. 
+DESCRIPTION = "RPMSG benchmark tool that includes both the CM4 firmware and CA application. \
 	There is post on how to use this firmware here: https://www.stupid-projects.com/using-elastic-stack-elk-on-embedded-part-2/"
 AUTHOR = "Dimitris Tassopoulos <dimtass@gmail.com>"
 
